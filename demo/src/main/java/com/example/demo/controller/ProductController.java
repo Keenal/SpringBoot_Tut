@@ -11,7 +11,11 @@ public class ProductController {
         return "Welcome to the Product Page";
     }
 
+    // Jackson converts POJO's to JSON
     @GetMapping("/product")
+    public Product getProduct() {
+        
+    }
     
     
 }
