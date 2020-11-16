@@ -21,6 +21,10 @@ public class Product {
             ", price='" + getPrice() + "'" +
             "}";
     }
+    
+    public Product() {
+    	
+    }
 
 
     public Product(Integer id, String name, int price) {
